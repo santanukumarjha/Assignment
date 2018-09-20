@@ -1,5 +1,8 @@
 # GoGram
-Node Api with authentication technique using json web token(i.e. JWT)
+Node Api with authentication technique using json web token(i.e. JWT).
+In JWT authentication technique is token based. So for logout we don't rest end point implementation.
+This needs to handle at client side. If user is not logging out then token will expire after expire timeout time.
+
 Code base contains Rest end points. So for testing purpose needs to be installed.
 Postman can be installed form chrome store . Url: https://chrome.google.com/webstore/category/extensions
 
